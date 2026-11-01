@@ -1,0 +1,7 @@
+name: SurveyBridge application
+paths:
+  - dist/engine.js
+  - dist/ui.js
+  - scripts
+paths-ignore:
+  - dist/vendor

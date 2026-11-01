@@ -1,0 +1,16 @@
+{
+  "sheetjs": {
+    "version": "0.20.3",
+    "source": "https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js",
+    "sha256": "cc015130aa8521e7f088f88898eba949ccdcbfb38df0bd129b44b7273c3a6f41",
+    "license": "Apache-2.0"
+  },
+  "bundle": {
+    "dependencies": {
+      "docx": "9.6.1",
+      "jszip": "3.10.1"
+    },
+    "builder": "esbuild 0.28.2",
+    "sha256": "c59486c721f79b1befcbabade3438fc9500fa35a45612d888ec020f0bc15f1f8"
+  }
+}

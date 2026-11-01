@@ -1,0 +1,14 @@
+{
+  "name": "surveybridge-browser",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Browser-local survey preparation and Excel/SPSS syntax export",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node tests/engine.cjs",
+    "check": "node --check dist/engine.js && node --check dist/ui.js && npm test"
+  },
+  "dependencies": {"docx": "9.6.1", "jszip": "3.10.1"},
+  "devDependencies": {"esbuild": "0.28.2"}
+}
