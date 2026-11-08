@@ -9,6 +9,6 @@
     "test": "node tests/engine.cjs",
     "check": "node --check dist/engine.js && node --check dist/ui.js && npm test"
   },
-  "dependencies": {"docx": "9.6.1", "jszip": "3.10.1"},
+  "dependencies": {"docx": "9.15.2", "jszip": "3.10.1"},
   "devDependencies": {"esbuild": "0.28.2"}
 }
